@@ -1,0 +1,17 @@
+*{margin: 0;
+     padding: 0; 
+     box-sizing: border-box;}
+
+@font-face{font-family: 'font1'; 
+    src:url('../Fontes/AlfaSlabOne-Regular.ttf')
+}
+
+html, body{height: 100%;}
+
+body{background-color: blue;}
+
+form{width: 96%;
+font-family: 'font1';}
+
+fieldset{max-width: 70%;}
+
