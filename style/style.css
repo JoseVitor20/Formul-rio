@@ -8,10 +8,53 @@
 
 html, body{height: 100%;}
 
-body{background-color: blue;}
+body{background-color: darkslategray;}
 
-form{width: 96%;
-font-family: 'font1';}
+form{width: 96%;font-family: 'font1';
+    margin: 0 auto;
+}
 
-fieldset{max-width: 70%;}
+fieldset{max-width: 60%;height: 1500px;
+background-color: darkred;
+border-radius: 20px;
+margin: 30px auto;
+float: inherit;
+text-align: center;
+border:10px double white;}
 
+legend{font-size: 50px;
+color: white;
+border:10px double white;
+background-color:darkred;
+border-radius: 20px;
+padding: 10px 10px;
+text-decoration: underline;}
+
+P{font-size: 30px;
+color:white;
+letter-spacing: 3px;
+margin:40px 0;
+margin-left: 20px;
+text-decoration:underline;}
+
+input[type=text], [type=password] {width: 70%;
+height: 40px;
+margin:20px auto;
+outline: none;
+font-weight: bold;}
+
+.Escolha{width:70%;
+height: 40px;
+outline: none;
+font-weight:bold;}
+
+.Escolha2{width:70%;
+    height: 40px;
+    outline: none;
+    font-weight:bold;}
+
+.Municipio{display: inline-block;
+text-align: justify;
+color: blanchedalmond;}
+
+.Municipio [type=radio]{margin-right: 10px;}
